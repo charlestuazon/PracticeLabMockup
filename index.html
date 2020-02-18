@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js"></script>
+</head>
+<body style="background-color: grey;">
+<form>
+    <div class="row">
+    <div class="column">
+        <h5>Login</h5>
+        <h5>Password</h5>
+        <h5>Confirm Password</h5>
+        <h5>Gender</h5>
+        <h5>Email</h5>
+    </div>
+        
+    <div class="column"></div> 
+    <form action="/action_page.php" target="_blank">
+        <br>
+        <label><input type="text" required id="login" name="login"></label> <br><br>
+        <label><input type="password" required id="password" name="password"></label> <br><br>
+        <label><input type="password" required id="cpassword" name="cpassword"></label> <br><br>
+        <label for="gender">
+            <select id="gender">
+                <option label="male">Male</option>
+                <option label="female">Female</option>
+            </select>
+        </label> <br><br>
+        <label><input type="email" required id="email" name="email"></label> <br><br>
+</div>
+<input type="submit" value="Register">
+</form>
+</body>
+</html>
